@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+
+    .container-logo {
+        margin-left: 70px;
+    }
+
+    .search-icon {
+        margin-right: 120px;
+    }
+
+    /* section viagem */
+
+    section.viagem {
+        background-size: contain;
+        height: 360px;
+    }
+
+    .container-viagem {
+        width: 600px;
+        top: 13%;
+        right: 10%;
+    }
+
+    div.list-itens ul li {
+        padding: 14px 63px;
+    }
+
+    /* locais */
+
+    section.locais {
+        margin-top: -40px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .cinqueterre img {
+        width: 340px;
+    }
+
+    .diversos img {
+        width: 163px;
+    }
+
+    /* visit */
+
+    .visit {
+        max-width: 700px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    /* offers */
+
+    section.offers {
+        max-width: 700px;
+    }
+
+    /* contatos */
+
+    .contact {
+        max-width: 700px;
+    }
+}

@@ -1,0 +1,100 @@
+@media screen and (max-width: 450px) {
+    .container-logo {
+        margin-left: -15px;
+    }
+
+    .search-icon {
+        margin-right: -2px;
+    }
+
+    /* section viagem */
+
+    section.viagem {
+        height: 329px;
+        background-image: none;
+        background-color: #fff;
+    }
+
+    .container-viagem {
+        width: 452px;
+        top: 0%;
+        right: -3%;
+    }
+
+    div.list-itens ul li {
+        padding: 14px 37px;
+    }
+
+    .define-container {
+        flex-direction: column;
+    }
+
+    .from {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .to {
+        width: 100%;
+    }
+
+    .define-container input {
+        padding: 14px;
+    }
+
+    /* locais */
+
+    section.locais {
+        margin-top: -40px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .cinqueterre img {
+        width: 400px;
+    }
+
+    .diversos img {
+        width: 400px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .paises {
+        flex-direction: column;
+    }
+
+    /* visit */
+
+    .visit {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #austria {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    /* offers */
+
+    section.offers {
+        max-width: 400px;
+        margin: auto;
+        background-color: #646464d2;
+    }
+
+    /* visit */
+
+    .contact {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 40px;
+    }
+}

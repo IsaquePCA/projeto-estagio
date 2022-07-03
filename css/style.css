@@ -1,0 +1,403 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --corlar: #f44336;
+}
+
+body {
+    font-family: 'Raleway';
+    background-color: #64646427;
+    overflow-x: hidden;
+    background-color: #e2d7d7c7;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto {
+    font-size: .9em;
+    margin-left: 13px;
+    color: var(--corlar);
+}
+
+.local-icon {
+    margin-left: 20px;
+    font-size: 1.2em;
+    color: var(--corlar);
+}
+
+.search-icon {
+    font-size: 1.2em;
+    margin-right: 6px;
+    color: #8d8888;
+}
+
+/* section viagem */
+
+section.viagem {
+    height: 570px;
+    background-image: url("../imagens/london.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-top: 1px solid #646464;
+    
+}
+
+.container-viagem {
+    background-color: #fff;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 32%;
+    right: 19%;
+}
+
+div.list-itens ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+div.list-itens ul li {
+    padding: 10px 96px;
+    border-right: 1px solid black;
+    display: flex;
+}
+
+.orange {
+    background-color: var(--corlar);
+    color: #fff;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.centro {
+    margin-right: 15px;
+    color: #fff;
+}
+
+.define {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.travel h2 {
+    font-weight: bolder;
+    padding: 13px 0;
+}
+
+.define-container {
+    display: flex;
+}
+
+.define-container input {
+    width: 97%;
+    padding: 8px;
+    margin-top: 3px;
+}
+
+.from {
+    width: 60%;
+    font-weight: bolder;
+}
+
+.to {
+    width: 60%;
+    margin-right: -16px;
+    font-weight: bolder;
+}
+
+.dates {
+    margin-top: 23px;
+}
+
+.dates a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #797575;
+    padding: 7px 13px;
+    font-size: 1.1em;
+}
+
+.dates {
+    margin-top: 23px;
+    padding-bottom: 15px;
+}
+
+/* locais */
+
+section.locais {
+    max-width: 1050px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.locais-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cinqueterre img {
+    width: 500px;
+}
+
+.diversos img {
+    width: 100%;
+    width: 243px;
+    margin-left: 15px;
+    
+}
+
+.paises {
+    display: flex;
+    padding-top: 15px;
+}
+
+.baixo {
+    margin-top: 10px;
+}
+
+.title-locais {
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.discount p {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.discount p span {
+    font-weight: bold;
+}
+
+/* visit */
+
+.visit {
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.infos {
+    display: flex;
+}
+
+.infos img {
+    width: 500px;
+    width: 100%;
+}
+
+.infos-container {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.visti-title {
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.visit-para {
+    font-size: 1.2em;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.infos h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.infos .opacity {
+    opacity: .5;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.infos .justo {
+    font-size: .9em;
+    padding-bottom: 18px;
+}
+
+.infos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.infos-container div {
+    margin-left: 13px;
+    padding-top: 5px;
+}
+
+#austria {
+    margin-left: 17px;
+}
+
+/* offers */
+
+section.offers {
+    max-width: 1050px;
+    margin: auto;
+    background-color: #646464d2;
+}
+
+section .offers-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.offers-container h2 {
+    font-size: 1.7em;
+    padding-bottom: 15px;
+}
+
+.offers-container .join {
+    padding-bottom: 10px;
+}
+
+.offers-container input {
+    padding: 8px;
+    width: 100%;
+    margin-top: 2px;
+    padding-bottom: 10px;
+}
+
+.offers-container input::placeholder {
+    font-size: 1em;
+    opacity: .7;
+}
+
+.offers-container button {
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--corlar);
+    opacity: .7;
+    padding: 10px 17px;
+    margin-top: 12px;
+    border: none;
+    font-size: 1em;
+}
+
+/* contatos */
+
+.contact {
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container h3 {
+    color: #000000;
+    font-size: 1.7em;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-container #let {
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+.contact-container
+
+
+.icons {
+    display: flex;
+    text-align: justify;
+}
+
+.icons p {
+    padding-left: 30px;
+}
+
+.icons-container p {
+    margin-bottom: 5px;
+}
+
+.left {
+    margin-left: -5px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+
+#cima {
+    margin-top: 10px;
+}
+
+#baixo {
+    padding-bottom: 20px;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 15px 20px;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 5px;
+}
+
+footer p {
+    color: #8d8888;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
+footer i {
+    color: #8d8888;
+    font-size: 1.5em;
+}
+
+#by {
+    margin-top: 30px;
+}
