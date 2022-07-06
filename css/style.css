@@ -10,8 +10,8 @@
 
 body {
     font-family: 'Raleway';
-    background-color: #64646427;
     background-color: #e2d7d7c7;
+    overflow: auto;
 }
 
 /* header */
